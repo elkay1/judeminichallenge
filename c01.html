@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Practice Challenge</title>
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.3/semantic.min.css">
+    <link type="text/css" rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+    <link type="text/css" rel="stylesheet" href="c01.css">
+
+</head>
+
+<body>
+   
+    <div class="container">
+        <div class="timer"></div>
+           <div class="form">
+            <div class="ui input top">
+                <p class="label">Player 1 Name:</p>
+                <input class="inputs" type="text" placeholder="Player 1" id="playerOneName">
+                <div id="playeronescore"></div>
+                <div id="scoreone"></div>
+
+            </div>
+            <div class="ui input bottom">
+                <p class="label">Player 2 Name:</p>
+                <input class="inputs" type="text" placeholder="Player 2" id="playerTwoName">
+                <div id="playertwoscore"></div>
+                <div id="scoretwo"></div>
+            </div>
+        </div>
+        <div id="turn"></div>
+        <div class="buttons">
+            <button class="ui blue button" id="startGame">
+              Start Game
+        </button>
+            <button class="ui green button" id="restartGame">
+              Restart Game
+        </button>
+        </div>
+        <div class="board"></div>
+    </div>
+
+    <script src="c01.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+.container {
+    margin: 100px auto;
+    width: 800px;
+    height: 300px;
+}
+
+.label {
+    margin-right: 20px;
+    font-size: 1.2em;
+}
+
+.top {
+    margin-bottom: 50px;
+    outline-color: transparent;
+    outline-style: none;
+}
+
+.form {
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#playeronescore, #playertwoscore {
+    height: 30px;
+    width: 130px;
+    margin-left: 20px;
+    font-size: 
+}
+
+#scoreone, #scoretwo {
+    height: 30px;
+    width: 130px;
+    margin-left: -80px;
+    font-size: 1.5em;
+}
+
+td {
+    width: 70px;
+    height: 70px;
+    outline-color: transparent;
+    outline-style: none;
+    border: 1px solid black;
+}
+
+table {
+    margin: 50px auto;
+    border-collapse: collapse;
+}
+
+.fa {
+    margin-left: 20px;
+    font-size: 2.4em;
+}
+
+#turn {
+    text-align: center;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+.selected{
+    color: #0cf00c;
+}
+
+.timer {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
